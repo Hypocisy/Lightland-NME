@@ -162,19 +162,19 @@ repositories {
 //        name 'tterrag maven'
 //        url 'https://maven.tterrag.com/'
 //    }
-//    maven {
-//        url 'https://www.cursemaven.com'
-//        content {
-//            includeGroup "curse.maven"
-//        }
-//    }
+    maven {
+        url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 //    maven {
 //        url = "https://maven.theillusivec4.top/"
 //    }
     mavenLocal()
 }
 
-//dependencies {
+dependencies {
 //
 //    implementation fg.deobf("dev.xkmc.l2library:l2library:${l2library_version}-slim")
 //    implementation fg.deobf("dev.xkmc.l2serial:l2serial:1.2.0")
@@ -221,6 +221,6 @@ repositories {
 //
 //    runtimeOnly fg.deobf("curse.maven:patchouli-306770:4636277")
 //
-//    //implementation fg.deobf('curse.maven:ic2-classic-242942:4441313')
+    implementation fg.deobf("curse.maven:aether-255308:5030547")
 //
-//}
+}
